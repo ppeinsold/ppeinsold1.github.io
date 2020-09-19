@@ -3,5 +3,6 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import VueParticles from 'vue-particles'
 
-createApp(App).use(store).use(router).mount('#app')
+createApp(App).use(store).use(router).use(VueParticles).mount('#app')
